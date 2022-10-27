@@ -21,13 +21,13 @@ By using separate security groups (one for the EC2 instance, and one for the RDS
 
 I made sure that the EC2 instance has Postgresql installed. To connect, you would need the RDS endpoint which terraform will output right after deploying the infrastructure. 
 
-First, connect to  the EC2 instance, then run this command:
+First, connect to the EC2 instance, then run this command:
 
-psql --host=<endpoint> --port=5432 --username=name --password
+psql --host=shola.ceikqcriwjp7.ca-central-1.rds.amazonaws.com --port=5432 --username=shola --password
 
-Username: 
-Password: 
-RDS Endpoint: .ceikqcriwjp7.ca-central-1.rds.amazonaws.com
+Username: shola
+Password: master123
+RDS Endpoint: shola.ceikqcriwjp7.ca-central-1.rds.amazonaws.com
 
 
 
